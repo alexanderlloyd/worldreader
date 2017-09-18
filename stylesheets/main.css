@@ -1,0 +1,171 @@
+/* line 1, ../sass/main.scss */
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* line 8, ../sass/main.scss */
+body {
+  background: #f6f6f6;
+  font-family: 'Varela', sans-serif;
+  font-size: 16px;
+  color: #333;
+  min-height: 100vh;
+  padding-bottom: 2em;
+}
+
+/* line 16, ../sass/main.scss */
+a {
+  color: #333;
+}
+
+/* line 20, ../sass/main.scss */
+h1 {
+  color: #333;
+  font-family: "Varela",sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.015em;
+}
+
+/* line 27, ../sass/main.scss */
+.breadcrumbs {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* line 34, ../sass/main.scss */
+.category {
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+
+/* line 40, ../sass/main.scss */
+.header {
+  font-size: 48px;
+  padding: 0.5em 15px 0.5em;
+  text-align: center;
+}
+
+/* line 47, ../sass/main.scss */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+/* line 54, ../sass/main.scss */
+.main {
+  margin-top: 3em;
+}
+
+/* line 58, ../sass/main.scss */
+.title-block {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* line 63, ../sass/main.scss */
+.flex {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+/* line 68, ../sass/main.scss */
+.flex.flex--wrap {
+  flex-wrap: wrap;
+}
+
+/* line 73, ../sass/main.scss */
+.col {
+  width: 7em;
+  margin: 1em;
+}
+
+/* line 79, ../sass/main.scss */
+.book a {
+  border-radius: 50%;
+  display: block;
+  height: 7em;
+  width: 7em;
+  color: #fff;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: opacity 0.3s,border 0.3s;
+}
+/* line 88, ../sass/main.scss */
+.book a h3, .book a p {
+  opacity: 0.75;
+  transition: opacity 0.3s;
+}
+/* line 92, ../sass/main.scss */
+.book a:hover, .book a:focus {
+  opacity: 1;
+  border: 1px solid white;
+  transition: opacity 0.3s,border 0.3s;
+}
+/* line 96, ../sass/main.scss */
+.book a:hover h3, .book a:hover p, .book a:focus h3, .book a:focus p {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+/* line 104, ../sass/main.scss */
+h3 {
+  font-size: 16px;
+}
+
+/* line 108, ../sass/main.scss */
+.book p {
+  padding: 0 20px;
+  color: #333;
+}
+
+/* line 113, ../sass/main.scss */
+.title {
+  color: #333;
+  text-align: left;
+}
+
+/* line 119, ../sass/main.scss */
+.books-categories .col {
+  margin: 0 1em 2em;
+  width: calc(50% - 2em);
+}
+
+/* line 125, ../sass/main.scss */
+.col a {
+  background: #fff none repeat scroll 0 0;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+/* line 130, ../sass/main.scss */
+.col a:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+/* line 133, ../sass/main.scss */
+.col a img {
+  display: block;
+  width: 100%;
+}
+/* line 137, ../sass/main.scss */
+.col a h3 {
+  padding: 1em 5px;
+  margin: 0;
+  text-align: center;
+  height: 90px;
+}
+
+/* line 146, ../sass/main.scss */
+.book-detail .title {
+  font-size: 22px;
+  color: #222;
+  font-weight: bold;
+}
